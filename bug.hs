@@ -1,0 +1,1 @@
+This Haskell code attempts to perform an unsafe operation on a Maybe type without proper handling. The error is in the function `processMaybe`. It tries to access the value directly using `fromJust`, which will crash if the Maybe is Nothing.
